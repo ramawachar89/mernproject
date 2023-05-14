@@ -8,7 +8,7 @@ const jwtSecret="mynameisyoutubechannealawacharpatil@#$"
 router.post("/creatuser", [
     body('email').isEmail(),
     //password must be at least 5 chars
-    body('name').isLength({ min: 5 }),
+    body('name').isLength({ min: 1 }),
     body('password', 'Incorrect Password').isLength({ min: 5 })]
     , async (req, res) => {
         const errors = validationResult(req);
