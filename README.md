@@ -27,11 +27,11 @@ Installation
 
 1. Clone the repository:
 
-   git clone https://github.com/your-username/food-delivery-app.git
+   git clone https://github.com/ramawachar89/mernproject
 
 2. Navigate to the project directory:
 
-   cd food-delivery-app
+   cd mernproject
 
 3. Install the dependencies for both the server and client:
 
