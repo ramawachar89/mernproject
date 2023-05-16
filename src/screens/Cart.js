@@ -17,7 +17,7 @@ export default function Cart(){
     // }
     const handleCheckout=async()=>{
         let userEmail=localStorage.getItem("userEmail");
-        let response=await fetch("https://mern-food-app-qgtw.onrender.com/api/orderData",{
+        let response=await fetch("https://flavor-go.onrender.com/api/orderData",{
             method:"POST",
             headers:{
                 'content-Type':'application/json'

@@ -9,7 +9,7 @@ export default function Home() {
    const[foodItem,setFoodItem]=useState([]);
   console.log(foodCat,"lll")
     const loadData= async ()=>{
-        let response = await fetch("https://mern-food-app-qgtw.onrender.com/api/foodData",{
+        let response = await fetch("https://flavor-go.onrender.com/api/foodData",{
             method:"POST",
             headers:{
                 'content-Type':'application/json'
